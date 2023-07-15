@@ -1,4 +1,4 @@
-package com.gonzalez.blanchard.frasesmvvmjetpack.ui.theme
+package com.gonzalez.blanchard.frasesroom.ui.theme
 
 import androidx.compose.ui.graphics.Color
 

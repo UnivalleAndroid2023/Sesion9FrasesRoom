@@ -1,4 +1,4 @@
-package com.gonzalez.blanchard.frasesmvvmjetpack.model
+package com.gonzalez.blanchard.frasesroom.model
 
 data class QuoteModel(
     val quote:String,

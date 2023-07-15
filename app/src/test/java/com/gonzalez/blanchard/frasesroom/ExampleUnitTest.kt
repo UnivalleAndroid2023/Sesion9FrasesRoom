@@ -1,4 +1,4 @@
-package com.gonzalez.blanchard.frasesmvvmjetpack
+package com.gonzalez.blanchard.frasesroom
 
 import org.junit.Test
 

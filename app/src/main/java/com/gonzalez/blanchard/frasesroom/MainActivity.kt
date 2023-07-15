@@ -1,4 +1,4 @@
-package com.gonzalez.blanchard.frasesmvvmjetpack
+package com.gonzalez.blanchard.frasesroom
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -9,8 +9,9 @@ import androidx.compose.material3.Surface
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
-import com.gonzalez.blanchard.frasesmvvmjetpack.ui.theme.FrasesMVVMJetpackTheme
-import com.gonzalez.blanchard.frasesmvvmjetpack.views.MainScreen
+import com.gonzalez.blanchard.frasesroom.ui.theme.FrasesMVVMJetpackTheme
+import com.gonzalez.blanchard.frasesroom.views.InsertQuoteScreen
+import com.gonzalez.blanchard.frasesroom.views.MainScreen
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -22,7 +23,8 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
                 ) {
-                    MainScreen()
+                   // MainScreen()
+                    InsertQuoteScreen()
                 }
             }
         }

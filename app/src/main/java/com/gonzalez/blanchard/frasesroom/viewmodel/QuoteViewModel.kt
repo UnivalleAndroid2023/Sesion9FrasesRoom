@@ -1,9 +1,9 @@
-package com.gonzalez.blanchard.frasesmvvmjetpack.viewmodel
+package com.gonzalez.blanchard.frasesroom.viewmodel
 
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
-import com.gonzalez.blanchard.frasesmvvmjetpack.model.QuoteModel
-import com.gonzalez.blanchard.frasesmvvmjetpack.model.QuoteProvider
+import com.gonzalez.blanchard.frasesroom.model.QuoteModel
+import com.gonzalez.blanchard.frasesroom.model.QuoteProvider
 
 class QuoteViewModel : ViewModel() {
 

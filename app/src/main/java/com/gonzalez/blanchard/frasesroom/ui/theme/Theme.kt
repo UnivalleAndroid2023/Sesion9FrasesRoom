@@ -1,4 +1,4 @@
-package com.gonzalez.blanchard.frasesmvvmjetpack.ui.theme
+package com.gonzalez.blanchard.frasesroom.ui.theme
 
 import android.app.Activity
 import android.os.Build
