@@ -11,55 +11,47 @@ class QuoteProvider {
 
         private val frases = listOf<QuoteModel>(
 
-            QuoteModel(
-                "Un Iphone no te puede quitar lo barrio, pero el barrio si te puede quitar el Iphone",
-                "Elgin Mendez"
-            ),
-
-            QuoteModel(
-                "Si pequeña es la patria, uno grande la sueña.",
-                "Ruben Darío",
-            ),
-
-            QuoteModel("El cafe con leche es como el cafe pero con leche.",
-                "Paulo Coelho"),
-
-            QuoteModel("Locura es hacer lo mismo una y otra vez y esperar resultados diferentes.",
-                "Albert Einstein"),
-
-            QuoteModel("No importa lo lento que vayas mientras no te detengas.",
-                "Confucio"),
-
-            QuoteModel("La sencillez es la máxima sofisticación.",
-                "Leonardo da Vinci"),
-
-            QuoteModel("Su carencia de fe resulta molesta.",
-                "Darth Vader"),
-
-            QuoteModel("Cuando me haya ido, el último de los Jedi serás tú",
-                "Yoda"),
-
-            QuoteModel(
-                "I don’t care if it works on your machine! We are not shipping your machine!",
-                "Vidiu Platon"
-            ),
-            QuoteModel(
-                "Measuring programming progress by lines of code is like measuring aircraft building progress by weight.",
-                "Bill Gates"
-            ),
-
-            QuoteModel("El dinero no da la felicidad, pero procura una sensación tan parecida que se necesita un especialista muy avanzado para verificar la diferencia.", "Woody Allen"),
-            QuoteModel("El matrimonio es como las libretas de ahorro: de tanto meter y sacar, se pierde el interés.", "Eugenio Derbez"),
-            QuoteModel("La inteligencia me persigue, pero yo soy más rápido.", "Groucho Marx"),
-            QuoteModel("No hay nada más peligroso que un idiota motivado.", "Scott Adams"),
-            QuoteModel("El amor eterno dura aproximadamente 3 meses.", "Woody Allen"),
-            QuoteModel("La confusión está clarísima.", "José Saramago"),
-            QuoteModel("El tiempo es un gran maestro, pero desafortunadamente mata a todos sus alumnos.", "Hector Berlioz"),
-            QuoteModel("La vida es una enfermedad mortal transmitida sexualmente.", "Woody Allen"),
-            QuoteModel("La mejor manera de empezar algo es dejar de hablar y empezar a hacerlo.", "Walt Disney"),
-            QuoteModel("No te tomes la vida en serio, al fin y al cabo no saldrás vivo de ella.", "Elbert Hubbard")
-
-            )
+            QuoteModel("El éxito es la suma de pequeños esfuerzos repetidos día tras día.", "Robert Collier"),
+                    QuoteModel("El único límite para nuestros logros de mañana está en nuestras dudas de hoy.", "Franklin D. Roosevelt"),
+        QuoteModel("El éxito no es la clave de la felicidad. La felicidad es la clave del éxito. Si amas lo que haces, tendrás éxito.", "Albert Schweitzer"),
+        QuoteModel("No importa lo lento que vayas, siempre y cuando no te detengas.", "Confucio"),
+        QuoteModel("El optimismo es la fe que conduce al logro. Nada se puede hacer sin esperanza y confianza.", "Helen Keller"),
+        QuoteModel("El único lugar donde el éxito viene antes que el trabajo es en el diccionario.", "Vidal Sassoon"),
+        QuoteModel("El fracaso es solo la oportunidad de comenzar de nuevo de forma más inteligente.", "Henry Ford"),
+        QuoteModel("El éxito es aprender a ir de fracaso en fracaso sin perder el entusiasmo.", "Winston Churchill"),
+        QuoteModel("El éxito no es el final, el fracaso no es fatal: es el coraje para continuar lo que cuenta.", "Winston Churchill"),
+        QuoteModel("El éxito es la capacidad de pasar de un fracaso a otro sin perder entusiasmo.", "Winston Churchill"),
+        QuoteModel("La mejor manera de predecir el futuro es crearlo.", "Peter Drucker"),
+        QuoteModel("No te preocupes por los fracasos, preocúpate por las posibilidades que pierdes cuando ni siquiera lo intentas.", "Jack Canfield"),
+        QuoteModel("El único lugar donde el éxito viene antes que el trabajo es en el diccionario.", "Vidal Sassoon"),
+        QuoteModel("El éxito no está en caer, sino en levantarse cada vez que caes.", "Anónimo"),
+        QuoteModel("No sueñes tu vida, vive tu sueño.", "Anónimo"),
+        QuoteModel("No se trata de cuántas veces te derriban, se trata de cuántas veces te levantas.", "Vince Lombardi"),
+        QuoteModel("Si tienes un sueño, protégelo. No dejes que nadie te diga que no puedes hacerlo.", "Will Smith"),
+        QuoteModel("Si quieres lograr algo que nunca has tenido, debes estar dispuesto a hacer algo que nunca has hecho.", "Thomas Jefferson"),
+        QuoteModel("El éxito no es el final, el fracaso no es fatal: es el coraje para continuar lo que cuenta.", "Winston Churchill"),
+        QuoteModel("No se trata de ser el mejor. Se trata de ser mejor de lo que eras ayer.", "Anónimo"),
+        QuoteModel("La disciplina es el puente entre las metas y el éxito.", "Jim Rohn"),
+        QuoteModel("No importa cuántas veces te caigas, lo importante es cuántas veces te levantes.", "Vince Lombardi"),
+        QuoteModel("El éxito no es la clave de la felicidad. La felicidad es la clave del éxito. Si amas lo que haces, tendrás éxito.", "Albert Schweitzer"),
+        QuoteModel("Nunca es demasiado tarde para ser lo que podrías haber sido.", "George Eliot"),
+        QuoteModel("El fracaso es solo la oportunidad de comenzar de nuevo de forma más inteligente.", "Henry Ford"),
+        QuoteModel("El éxito no es la clave de la felicidad. La felicidad es la clave del éxito. Si amas lo que haces, tendrás éxito.", "Albert Schweitzer"),
+        QuoteModel("El éxito no está en caer, sino en levantarse cada vez que caes.", "Anónimo"),
+        QuoteModel("No sueñes tu vida, vive tu sueño.", "Anónimo"),
+        QuoteModel("No te preocupes por los fracasos, preocúpate por las posibilidades que pierdes cuando ni siquiera lo intentas.", "Jack Canfield"),
+        QuoteModel("No se trata de cuántas veces te derriban, se trata de cuántas veces te levantas.", "Vince Lombardi"),
+        QuoteModel("Si tienes un sueño, protégelo. No dejes que nadie te diga que no puedes hacerlo.", "Will Smith"),
+        QuoteModel("Si quieres lograr algo que nunca has tenido, debes estar dispuesto a hacer algo que nunca has hecho.", "Thomas Jefferson"),
+        QuoteModel("El éxito no está en caer, sino en levantarse cada vez que caes.", "Anónimo"),
+        QuoteModel("No sueñes tu vida, vive tu sueño.", "Anónimo"),
+        QuoteModel("No se trata de cuántas veces te derriban, se trata de cuántas veces te levantas.", "Vince Lombardi"),
+        QuoteModel("Si tienes un sueño, protégelo. No dejes que nadie te diga que no puedes hacerlo.", "Will Smith"),
+        QuoteModel("Si quieres lograr algo que nunca has tenido, debes estar dispuesto a hacer algo que nunca has hecho.", "Thomas Jefferson"),
+        QuoteModel("No te preocupes por los fracasos, preocúpate por las posibilidades que pierdes cuando ni siquiera lo intentas.", "Jack Canfield"),
+        QuoteModel("No importa cuántas veces te caigas, lo importante es cuántas veces te levantes.", "Vince Lombardi"),
+        QuoteModel("Si tienes un sueño, protégelo. No dejes que nadie te diga que no puedes hacerlo.", "Will Smith"),
+        )
 
     }
 
